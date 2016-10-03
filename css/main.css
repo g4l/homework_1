@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "PTSansRegular";
+    src: url("../font/PTSansRegular.ttf");
+}
+
+body{
+    font-family: 'PTSansRegular';
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg2_1920x1200.jpg);
+
+}
+
+
+.mail__list{
+    margin: 100px 40px 50px 100px;
+    background: rgba(243,243,243,.85);
+}
+
+
+.mail__list div {
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+
+.mail__item{
+    padding: 5px;
+    margin: 2px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    width: 99%;
+}
+
+
+.mail__item__part1{
+    width: 15%;
+}
+
+.mail__item__part2{
+    width: 74%;
+}
+
+
+.mail__item__part2 .mail__item__header{
+    color: black;
+}
+
+.mail__item__part2 .mail__item__body{
+    color: grey;
+}
+
+.mail__item__part3{
+    width: 10%;
+    text-align: right;
+}
+
+
+/* Письмо полностью*/
+.fullText {
+    background: white;
+    padding: 20px 20px 20px 15%;
+    margin: 0 10px;
+}
+
+.fullText__header {
+    margin-bottom: 10px;
+}
+
+.fullText__header__sender {
+    font-weight: 900;
+}
+
+.fullText__header__mail {
+    color: grey;
+}
+
+.fullText__header__info {
+    padding-left: 5px;
+}
